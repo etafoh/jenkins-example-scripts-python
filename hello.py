@@ -1,7 +1,7 @@
 #!/usr/bin/env python3.6
 
 import boto3
-sess = boto3.Session(region_name="us-east-1",aws_access_key_id="AKIASL5PB5BTO5GLDTVS" ,aws_secret_access_key="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")
+sess = boto3.Session(region_name="us-east-1")
 
 client = sess.client("s3")
 
